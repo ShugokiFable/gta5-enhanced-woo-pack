@@ -31,6 +31,12 @@ please ask authors before redistributing their work elsewhere.
 | Premium Deluxe Revamped | Nochala & ImNotMentaL | https://www.gta5-mods.com/scripts/premium-deluxe-motorsport-dealership-revamped | Not installed (map-pointer UI conflicts with Bennys). |
 | Eclipse Complex | meimeiriver, Raymax3d | https://www.gta5-mods.com/maps/eclipse-complex | Revamped Eclipse Tower incl. scripts. |
 | bmamas (Lively Bahama Mamas) | LeetSombrero | https://www.gta5-mods.com/maps/lively-bahama-mamas-wip | Bouncer/DJ spawns; assets partly from -alex189-. |
+| AddedTrafficEnhanced | Brandini | https://www.gta5-mods.com/scripts/added-traffic-enhanced | Extra traffic variety; also on Nexus GTA5 Enhanced #907. |
+| MPMenu_Enhanced (MP / DLC Menu) | Pakked (FlyHigh) | https://www.gta5-mods.com/scripts/enable-mp-maps | Load Online maps into Story Mode. |
+| Robbery at the Docks | anyone3909 | https://www.gta5-mods.com/scripts/robbery-at-the-docks | GTA Enhanced version. |
+| Vehicle Theft Jobs | anyone3909 | https://www.gta5-mods.com/scripts/vehicle-theft-jobs | 3-tier theft jobs, reputation, equipment store. |
+| Working Hotdog Vendors Enhanced (HotDogStandScript.cs) | author via mod page | https://www.nexusmods.com/gta5enhanced/mods/351 | Stand in front of a hotdog vendor and buy. |
+| StoreRobberyEnhanced | FastBurst | https://www.gta5-mods.com/scripts/store-robbery-enhanced-fastburst | ⚠️ **NOT INCLUDED** — author's license prohibits redistribution; present in your private install only. |
 
 ## Add-on maps & interiors
 
@@ -63,7 +69,7 @@ please ask authors before redistributing their work elsewhere.
 | HeapAdjuster | (see gta5-mods) | https://www.gta5-mods.com/tools/heapadjuster |
 | Proper Steering Fix | (see gta5-mods) | https://www.gta5-mods.com/scripts/proper-steering-fix |
 | blinker | (see gta5-mods) | https://www.gta5-mods.com/scripts/blinker |
-| SwapMainRide | (see gta5-mods) | https://www.gta5-mods.com/scripts/swapmainride |
+| SwapMainRide | 5kY1iN3 | https://www.gta5-mods.com/scripts/swap-main-ride | Also on Nexus GTA5 Enhanced #157. |
 | DecalPatch | (see gta5-mods) | https://www.gta5-mods.com/tools/gta-decal-patch |
 
 ## Explicitly not included
