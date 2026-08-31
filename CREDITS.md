@@ -52,7 +52,7 @@ please ask authors before redistributing their work elsewhere.
 | mafia_mansion | Guillaume56 (original); DimoSerb (Enhanced conversion) | https://www.nexusmods.com/gta5enhanced/mods/1332 | Original: libertycity.net "Mafia Mansion 3.0". |
 | malibu_mansion | BigShaqNOKetchup | https://www.gta5-mods.com/maps/malibu-mansion-add-on | 6-car garage, master suite, recording studio, pool. |
 | mmd_jason_duval_houses | MouMoud (author); DimoSerb (uploader/conversion) | https://www.nexusmods.com/gta5enhanced/mods/1265 | Recreation of Jason Duval's house from the GTA VI trailer. |
-| modern_wood_house_1a | BigShaqNOKetchup | https://www.gta5-mods.com/maps/mlo-modern-wood-house-add-on-sp | Contains Sketchfab 3D models (CC Attribution). |
+| modern_wood_house_1a | BigShaqNOKetchup | https://www.gta5-mods.com/maps/mlo-modern-wood-house-add-on-sp | ⚠️ **NOT INCLUDED** — author forbids reuploading ("available only on gta5-mods.com"); present in your private install only. |
 | playboyv2 | Banane Pro (original); DimoSerb (Enhanced conversion) | https://www.nexusmods.com/gta5enhanced/mods/1152 | "Play Boy Mansion (SP Add-On)". |
 | spmadrazo | Siprus (original); DimoSerb (Enhanced conversion) | https://www.nexusmods.com/gta5enhanced/mods/1153 | "Madrazo Ranch Update with New Rooms". Ships RANCH_SP_MAPS.asi. |
 | surpineva | SURGEMLO (original); DimoSerb (Enhanced conversion) | https://www.nexusmods.com/gta5enhanced/mods/1404 | "Pine Valley Mansion": 20-car garage, indoor pool, cinema, bowling alley. |
@@ -62,6 +62,8 @@ please ask authors before redistributing their work elsewhere.
 
 | Component | Author | URL |
 |---|---|---|
+| ScriptHookV (Enhanced build) | Alexander Blade | https://www.dev-c.com/gta/scripthookv |
+| ScriptHookVDotNet Enhanced | kagikn | https://github.com/kagikn/ScriptHookVDotNet |
 | Onigiri (dlc loading overlay) | kagikn | https://github.com/kagikn/onigiri |
 | Menyoo | MAFINS | https://www.gta5-mods.com/tools/menyoo-pc-sp |
 | Packfile/Modkit Limit Adjuster (Enhanced) | (see gta5-mods) | https://www.gta5-mods.com/tools/packfile-limit-adjuster |
@@ -74,6 +76,6 @@ please ask authors before redistributing their work elsewhere.
 
 ## Explicitly not included
 
-- **ScriptHookV** — https://www.dev-c.com/gta/scripthookv (Alexander Blade)
-- **ScriptHookVDotNet Enhanced** — https://github.com/kagikn/ScriptHookVDotNet (kagikn)
 - **NVE (NaturalVision Evolved)** — https://www.patreon.com/Razed (commercial)
+- **DLSS5 add-on** — NVIDIA Streamline binaries can't be redistributed; see README
+- **StoreRobberyEnhanced** (FastBurst) and **Modern Wood House** (BigShaqNOKetchup) — authors forbid redistribution; listed above for reference only

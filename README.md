@@ -21,11 +21,12 @@ into `steamapps\common\Grand Theft Auto V Enhanced` manually.
   proper steering fix, blinker, Menyoo 2.3.1, SwapMainRide, BennysMapLoader.
 
 ### Explicitly NOT included (install separately)
-- **ScriptHookV** (Enhanced build) — https://www.dev-c.com/gta/scripthookv
-- **ScriptHookVDotNet Enhanced** — https://github.com/kagikn/ScriptHookVDotNet
 - **NVE (NaturalVision Evolved)** — commercial, from Razed's Patreon. This pack is compatible with
   NVE's June 2026 "NEXT GEN UPDATE" build but does not ship it.
-- **ReShade** — bring your own preset (the pack's `ReShade.ini` is intentionally excluded).
+- **DLSS5 add-on** (renodx-dlss5 + NVIDIA Streamline binaries) — NVIDIA's binaries can't be
+  redistributed; grab from [renodx-dlss5](https://github.com/renodx/dlss5) if you want it.
+- **Mods whose authors forbid redistribution** (StoreRobberyEnhanced, Modern Wood House) — install
+  those from their original pages; see CREDITS.md.
 
 ---
 
@@ -42,8 +43,7 @@ into `steamapps\common\Grand Theft Auto V Enhanced` manually.
    - find your game folder automatically (or let you point it there),
    - extract the archive,
    - copy the mods into the game folder (merge — never deletes game files).
-3. Install ScriptHookV (Enhanced build) if you don't already have it.
-4. Launch the game. The mods load with the game; check `ScriptHookVDotNet.log` for errors.
+3. Launch the game. The mods load with the game; check `ScriptHookVDotNet.log` for errors.
 
 ### Uninstall
 Remove the files that `Install.bat` copied (or restore from Steam's "Verify integrity of game files" —
