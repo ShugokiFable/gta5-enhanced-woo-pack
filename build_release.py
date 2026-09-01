@@ -28,7 +28,9 @@ GAME_DLLS = (
     "oo2core_5_win64.dll", "opus.dll", "opusenc.dll",
     "steam_api64.dll", "XCurl.dll", "zlib1.dll",
 )
-EXCL = ["-xr!*_DLSS5_Backup*", "-xr!*.log", "-xr!*.pdb"] + [f"-xr!*{d}" for d in GAME_DLLS]
+# License-restricted mods (authors forbid redistribution) — never ship even if re-synced.
+NO_REDIST = ("StoreRobberyEnhanced", "modern_wood_house_1a")
+EXCL = ["-xr!*_DLSS5_Backup*", "-xr!*.log", "-xr!*.pdb"] + [f"-xr!*{d}" for d in GAME_DLLS] + [f"-xr!*{n}*" for n in NO_REDIST]
 
 def main() -> None:
     for vol in OUT.glob("WooPack-Core.7z.*"):

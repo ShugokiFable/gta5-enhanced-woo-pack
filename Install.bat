@@ -34,7 +34,7 @@ rem ---- extract the pack volumes if needed ----
 set "SZ="
 for %%Z in ("%ProgramFiles%\7-Zip\7z.exe" "%ProgramFiles(x86)%\7-Zip\7z.exe") do if exist "%%~Z" set "SZ=%%~Z"
 if not defined SZ for /f "delims=" %%Z in ('where 7z 2^>nul') do set "SZ=%%Z"
-if exist "%~dp0WooPack-Core\onigiri" goto extracted
+for /d %%D in ("%~dp0*Woo Pack*") do if exist "%%~D\onigiri" goto extracted
 if not defined SZ (
   echo ERROR: 7-Zip not found. Install 7-Zip, then re-run.
   echo Download: https://www.7-zip.org/
