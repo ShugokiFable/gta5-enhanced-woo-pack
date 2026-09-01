@@ -64,7 +64,10 @@ please ask authors before redistributing their work elsewhere.
 |---|---|---|
 | ScriptHookV (Enhanced build) | Alexander Blade | https://www.dev-c.com/gta/scripthookv |
 | ScriptHookVDotNet Enhanced | kagikn | https://github.com/kagikn/ScriptHookVDotNet |
-| Onigiri (dlc loading overlay) | kagikn | https://github.com/kagikn/onigiri |
+| Onigiri (dlc loading overlay) | kagikn | https://www.nexusmods.com/gta5enhanced/mods/688 |
+| NVE (NaturalVision Evolved) — graphics overhaul, INCLUDED | Razed | https://www.patreon.com/Razed |
+| DLSS5 neural rendering add-on (RenoDX), INCLUDED | Rakan Alkhaldi (rakanki911) / DLSS-5-Feeder | https://github.com/rakanki911/DLSS5-Swapper |
+| ReShade (ASI build, NVE preset) | crosire | https://reshade.me/ |
 | Menyoo | MAFINS | https://www.gta5-mods.com/tools/menyoo-pc-sp |
 | Packfile/Modkit Limit Adjuster (Enhanced) | (see gta5-mods) | https://www.gta5-mods.com/tools/packfile-limit-adjuster |
 | DirectStorage Fix | (see gta5-mods) | https://www.gta5-mods.com/tools/directstorage-fix-for-gta-v-enhanced |
@@ -76,6 +79,5 @@ please ask authors before redistributing their work elsewhere.
 
 ## Explicitly not included
 
-- **NVE (NaturalVision Evolved)** — https://www.patreon.com/Razed (commercial)
-- **DLSS5 add-on** — NVIDIA Streamline binaries can't be redistributed; see README
-- **StoreRobberyEnhanced** (FastBurst) and **Modern Wood House** (BigShaqNOKetchup) — authors forbid redistribution; listed above for reference only
+- **StoreRobberyEnhanced** (FastBurst) and **Modern Wood House** (BigShaqNOKetchup) — authors forbid redistribution; listed above for reference only. Install from their original pages.
+- **Rockstar game files** (steam_api64.dll, bink2w64.dll, dstorage*.dll, etc.) — the pack is a mod layer, never the game.

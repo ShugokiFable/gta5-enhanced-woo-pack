@@ -2,7 +2,7 @@
 
 A curated single-player modpack for **GTA V Enhanced** (Steam, build `1.0.1158.13`).
 
-Everything is drag-and-drop: download the two archive volumes, run `Install.bat`, done.
+Everything is drag-and-drop: download **all** archive volumes, run `Install.bat`, done.
 The pack mirrors the game folder structure, so you can also just extract and drop the contents
 into `steamapps\common\Grand Theft Auto V Enhanced` manually.
 
@@ -14,17 +14,16 @@ into `steamapps\common\Grand Theft Auto V Enhanced` manually.
 
 - **Script mods** (ScriptHookVDotNet / SHV scripts) — single-player features, online-quality vehicles,
   interiors, jobs, quality-of-life tweaks. Full list with authors in [CREDITS.md](CREDITS.md).
-- **Add-on maps & interiors** (15 DLC packs mounted via `onigiri`) — mansions, garages, farms, MLOs,
-  character overhauls. All mounted through the [Onigiri](https://github.com/kagikn/onigiri) overlay
+- **Add-on maps & interiors** (26 DLC packs mounted via `onigiri`) — mansions, garages, farms, MLOs,
+  character overhauls, plus NVE's 12 environment packs. All mounted through the
+  [Onigiri](https://www.nexusmods.com/gta5enhanced/mods/688) overlay
   (`onigiri\common\data\dlclist.xml` is pre-configured).
 - **Framework/quality ASIs** — heap & packfile limit adjusters, DirectStorage fix, decal patch,
   proper steering fix, blinker, Menyoo 2.3.1, SwapMainRide, BennysMapLoader.
+- **Graphics** — **NVE (NaturalVision Evolved)** with its ReShade preset, plus the **DLSS 5
+  neural-rendering add-on** (RenoDX, latest NVIDIA Streamline runtimes). All included.
 
-### Explicitly NOT included (install separately)
-- **NVE (NaturalVision Evolved)** — commercial, from Razed's Patreon. This pack is compatible with
-  NVE's June 2026 "NEXT GEN UPDATE" build but does not ship it.
-- **DLSS5 add-on** (renodx-dlss5 + NVIDIA Streamline binaries) — NVIDIA's binaries can't be
-  redistributed; grab from [renodx-dlss5](https://github.com/renodx/dlss5) if you want it.
+### NOT included (install separately)
 - **Mods whose authors forbid redistribution** (StoreRobberyEnhanced, Modern Wood House) — install
   those from their original pages; see CREDITS.md.
 
@@ -37,7 +36,7 @@ into `steamapps\common\Grand Theft Auto V Enhanced` manually.
 - [7-Zip](https://www.7-zip.org/) (to extract the volumes)
 
 ### Steps
-1. Download **all** files from the release: `WooPack-Core.7z.001`, `WooPack-Core.7z.002`, `Install.bat`
+1. Download **all** files from the release: every `WooPack-Core.7z.00x` volume plus `Install.bat`
    — keep them in the **same folder**.
 2. Double-click `Install.bat`. It will:
    - find your game folder automatically (or let you point it there),
@@ -54,8 +53,9 @@ it will not touch mods, so delete them first). A backup of your clean install is
 ## Compatibility
 
 - Target: **GTA V Enhanced** `1.0.1158.13` (July 2026 patch).
-- Requires ScriptHookV `3889.0`+ and ScriptHookVDotNet Enhanced `1.1.0.6`+.
-- All 15 add-on packs are OPEN RPF7 archives, byte-identical to their source releases; they mount
+- Bundled: ScriptHookV `3889.0`, ScriptHookVDotNet Enhanced `1.1.0.6`, NVE (June 2026 "NEXT GEN
+  UPDATE" build) and the DLSS 5 add-on.
+- All 26 add-on packs are OPEN RPF7 archives, byte-identical to their source releases; they mount
   cleanly with the DirectStorage fix and limit adjusters included in this pack.
 
 ## Troubleshooting
@@ -63,7 +63,7 @@ it will not touch mods, so delete them first). A backup of your clean install is
 | Symptom | Fix |
 |---|---|
 | Game loads forever into online/MP | Usually a broken DLC pack — disable packs one at a time in `onigiri\common\data\dlclist.xml` (comment out `<Item>` lines) |
-| Scripts not loading | ScriptHookV missing or outdated — check `ScriptHookV.log`; install the Enhanced build |
+| Scripts not loading | ScriptHookV missing or outdated — check `ScriptHookV.log`; the pack bundles SHV `3889.0`, so if this shows a build mismatch the game updated past `1.0.1158.13` |
 | Black/blank web UI in Online Vehicles Shops | Install the mod's `scaleform_web.rpf` files into `onigiri\update\x64\patch\data\cdimages\scaleform_web.rpf\` |
 
 ---

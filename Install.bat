@@ -44,7 +44,7 @@ if not defined SZ (
 echo Extracting WooPack-Core.7z.001 ... (this takes a minute)
 "%SZ%" x "%~dp0WooPack-Core.7z.001" -o"%~dp0" -y >nul
 if errorlevel 1 (
-  echo ERROR: extraction failed. Make sure BOTH volume files are in this folder.
+  echo ERROR: extraction failed. Make sure ALL volume files are in this folder.
   pause
   exit /b 1
 )
@@ -60,11 +60,9 @@ robocopy "%SRC%" "%GAME%" /E /IS /NFL /NDL /NJH /R:1 /W:1
 echo.
 echo ============================================================
 echo   Done! Next steps:
-echo   1. Install ScriptHookV (Enhanced build) if you don't have
-echo      it yet:  https://www.dev-c.com/gta/scripthookv
-echo   2. Optional: NVE (NaturalVision Evolved) is NOT included
-echo      - buy it from Razed's Patreon if you want it.
-echo   3. Launch the game once. Check ScriptHookVDotNet.log in
-echo      the game folder for any errors.
+echo   1. Launch the game. Everything is included - ScriptHookV,
+echo      SHVDN, NVE, DLSS5 and ReShade ship in this pack.
+echo   2. Check ScriptHookVDotNet.log in the game folder for
+echo      any errors on first launch.
 echo ============================================================
 pause
