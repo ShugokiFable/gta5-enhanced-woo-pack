@@ -19,13 +19,13 @@ into `steamapps\common\Grand Theft Auto V Enhanced` manually.
   [Onigiri](https://www.nexusmods.com/gta5enhanced/mods/688) overlay
   (`onigiri\common\data\dlclist.xml` is pre-configured).
 - **Framework/quality ASIs** — heap & packfile limit adjusters, DirectStorage fix, decal patch,
-  proper steering fix, blinker, Menyoo 2.3.1, SwapMainRide, BennysMapLoader.
+  proper steering fix, blinker, Menyoo 2.3.1, SwapMainRide.
 - **Graphics** — **NVE (NaturalVision Evolved)** with its ReShade preset, plus the **DLSS 5
   neural-rendering add-on** (RenoDX, latest NVIDIA Streamline runtimes). All included.
 
 ### NOT included (install separately)
-- **Mods whose authors forbid redistribution** (StoreRobberyEnhanced, Modern Wood House) — install
-  those from their original pages; see CREDITS.md.
+- **Mods whose authors forbid redistribution** (StoreRobberyEnhanced, Modern Wood House,
+  Bennys Motorworks Revamped) — install those from their original pages; see CREDITS.md.
 
 ---
 

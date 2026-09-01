@@ -29,7 +29,7 @@ GAME_DLLS = (
     "steam_api64.dll", "XCurl.dll", "zlib1.dll",
 )
 # License-restricted mods (authors forbid redistribution) — never ship even if re-synced.
-NO_REDIST = ("StoreRobberyEnhanced", "modern_wood_house_1a")
+NO_REDIST = ("StoreRobberyEnhanced", "modern_wood_house_1a", "BennysMotorworksRevamped", "BennysMapLoader")
 EXCL = ["-xr!*_DLSS5_Backup*", "-xr!*.log", "-xr!*.pdb"] + [f"-xr!*{d}" for d in GAME_DLLS] + [f"-xr!*{n}*" for n in NO_REDIST]
 
 def main() -> None:

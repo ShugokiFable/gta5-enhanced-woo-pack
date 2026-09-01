@@ -27,7 +27,7 @@ please ask authors before redistributing their work elsewhere.
 | AllMpVehiclesInSp | andre500 | https://www.gta5-mods.com/scripts/all-mp-vehicles-in-sp | Adds all GTA Online vehicles to SP traffic/parking. |
 | The Vinewood Club in SP (Legacy) | andre500 | https://www.gta5-mods.com/scripts/the-vinewood-car-club-in-sp | Legacy build — not installed; kept for reference. |
 | Fumes (FumeFX) | spitmux | https://www.gta5-mods.com/scripts/fumes-animated-fuel-mod | Animated persistent vehicle fuel. |
-| Bennys Motorworks Revamped | Nochala | https://www.gta5-mods.com/scripts/benny-s-motor-works-in-sp-revamped | Benny's Motor Works SP overhaul (Legacy + Enhanced). |
+| Bennys Motorworks Revamped | Nochala | https://www.gta5-mods.com/scripts/benny-s-motor-works-in-sp-revamped | ⚠️ **NOT INCLUDED** — author's license forbids redistribution (no mod packs); install from the original page. |
 | Premium Deluxe Revamped | Nochala & ImNotMentaL | https://www.gta5-mods.com/scripts/premium-deluxe-motorsport-dealership-revamped | Not installed (map-pointer UI conflicts with Bennys). |
 | Eclipse Complex | meimeiriver, Raymax3d | https://www.gta5-mods.com/maps/eclipse-complex | Revamped Eclipse Tower incl. scripts. |
 | bmamas (Lively Bahama Mamas) | LeetSombrero | https://www.gta5-mods.com/maps/lively-bahama-mamas-wip | Bouncer/DJ spawns; assets partly from -alex189-. |
