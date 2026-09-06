@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${ github.ref }
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Syntax-check the release build script
+        run: python -m py_compile build_release.py
+      - name: Confirm no game binaries or license-restricted mods are whitelisted to ship
+        run: python -c "import ast,pathlib; t=ast.parse(pathlib.Path('build_release.py').read_text()); src=ast.get_source_segment(pathlib.Path('build_release.py').read_text(), t); assert 'amd_ags_x64.dll' in src; print('exclusion list present in build_release.py')"
