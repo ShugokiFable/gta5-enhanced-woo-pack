@@ -24,5 +24,12 @@ jobs:
           python-version: '3.12'
       - name: Syntax-check the release build script
         run: python -m py_compile build_release.py
-      - name: Confirm no game binaries or license-restricted mods are whitelisted to ship
-        run: python -c "import ast,pathlib; t=ast.parse(pathlib.Path('build_release.py').read_text()); src=ast.get_source_segment(pathlib.Path('build_release.py').read_text(), t); assert 'amd_ags_x64.dll' in src; print('exclusion list present in build_release.py')"
+      - name: Confirm ship-exclusion safeguards are present
+        run: python - <<'PY'
+from pathlib import Path
+t = Path('build_release.py').read_text(encoding='utf-8')
+assert 'amd_ags_x64.dll' in t, 'game-DLL exclusion list missing'
+assert 'StoreRobberyEnhanced' in t, 'no-redistributable mod list missing'
+assert '_DLSS5_Backup' in t, 'DLSS5 backup exclusion missing'
+print('exclusion safeguards present in build_release.py')
+PY
